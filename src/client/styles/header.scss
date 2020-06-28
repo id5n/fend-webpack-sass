@@ -1,0 +1,12 @@
+$background-color: #ababab;
+$font-color: #f00;
+$header-weight: 900;
+
+header {
+    background-color: $background-color;
+    color: $font-color;
+    font-weight: $header-weight;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+}
